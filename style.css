@@ -1,3 +1,22 @@
+/*NAVBAR*/
+
+.navbar a:hover {
+    color: #165591 !important;
+}
+
 .icon-bar {
     background-color: #2196f3;
 }
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.navbar {
+    background-color: rgba(0,0,0, 0.8);
+
+}
+
+
+
+/*END OF NAVBAR*/
