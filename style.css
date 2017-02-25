@@ -1,3 +1,7 @@
+h1, p {
+    font-family: 'Lato', sans-serif;
+}
+
 /*NAVBAR*/
 
 .navbar a:hover {
@@ -18,3 +22,37 @@
 }
 
 /*END OF NAVBAR*/
+
+/*HEADER SECTION*/
+
+#header {
+    padding: 160px 0 60px 0;
+    /*background: url('libs/img/bg.jpg') center center no-repeat;*/
+    background: url('libs/img/pexels-photo-169685.jpeg') center center no-repeat;
+    background-size: cover;
+
+    width: 100%;
+}
+
+#header .pitch {
+    margin-bottom: 80px;
+}
+
+#header .pitch .text {
+    background-color: rgba(0,0,0, 0.4);
+    padding: 30px;
+}
+
+#header h1, p {
+    color: white;
+}
+
+#header h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5em;
+}
+
+#header p {
+    font-size: 1.5em;
+}
+/*END OF HEADER SECTION*/
