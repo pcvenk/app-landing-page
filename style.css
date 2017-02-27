@@ -144,4 +144,24 @@ h1, h2, h3 {
 
 /*SCREENS*/
 
+#screens {
+    text-align: center;
+    background-color: #1e5ca5;
+}
+
+#screens h2 {
+    color: white;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#screens p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#screens .col-xs-6 {
+    padding-bottom: 25px;
+}
+
 /*END OF SCREENS*/
