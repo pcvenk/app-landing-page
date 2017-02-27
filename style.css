@@ -64,6 +64,7 @@ h1, h2, h3 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
     color: white;
+    padding-top: 0;
 }
 
 #header p {
@@ -74,6 +75,12 @@ h1, h2, h3 {
 /*ABOUT SECTION*/
 
 #about h2 {
+    color: #2196f3;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#about h3 {
     color: #2196f3;
     letter-spacing: 1.6px;
     font-weight: 900;
