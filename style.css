@@ -238,20 +238,21 @@ h1, h2, h3 {
     margin-bottom: 35px;
 }
 
-#connect .fa {
+#connect .icons .fa {
     margin-right: 10px;
     color: #142142;
     border: 1px solid #142142;
     padding: 10px;
     border-radius: 25%;
     transition: all 0.3s linear;
+    margin-bottom: 20px;
 }
 
 #connect .fa-facebook {
     padding: 10px 20px !important;
 }
 
-#connect .fa:hover {
+#connect .icons .fa:hover {
     color: white;
     background-color: #142142;
 }
