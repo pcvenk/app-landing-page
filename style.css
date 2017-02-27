@@ -75,7 +75,6 @@ h1, h2, h3 {
 
 #about h2 {
     color: #2196f3;
-    font-size: 2.2em;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
@@ -86,3 +85,59 @@ h1, h2, h3 {
 }
 
 /*END OF ABOUT SECTION*/
+
+/*FEATURES SECTION*/
+
+.col-md-4 .image-container {
+    margin-bottom: 30px !important;
+}
+
+#features {
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+#features h2, #features h4 {
+    color: white;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+.features-title {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    margin-bottom: 30px;
+}
+
+/*END OF FEATURES SECTION*/
+
+/*PRESS SECTION*/
+
+#press h2 {
+    color: #2196f3;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#press {
+    text-align: center;
+}
+
+#press .logos {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+#press .logos img {
+    opacity: 0.3;
+}
+
+#press .logos img:hover {
+    opacity: 1;
+}
+
+/*END OF PRESS SECTION*/
