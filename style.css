@@ -192,3 +192,30 @@ h1, h2, h3 {
 }
 
 /*END OF REVIEWS*/
+
+/*BUY SECTION*/
+
+#buy {
+    text-align: center;
+    background-color: #183a74;
+
+}
+
+#buy h2 {
+    color: white;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#buy p {
+    color: white;
+    margin-bottom: 35px;
+}
+
+#buy button {
+    background: transparent;
+    border: none;
+    margin-bottom: 70px;
+}
+
+/*END OF BUY*/
