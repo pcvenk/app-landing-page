@@ -147,6 +147,7 @@ h1, h2, h3 {
 #screens {
     text-align: center;
     background-color: #1e5ca5;
+    padding-bottom: 50px;
 }
 
 #screens h2 {
@@ -165,3 +166,22 @@ h1, h2, h3 {
 }
 
 /*END OF SCREENS*/
+
+/*REVIEWS SECTION*/
+
+#reviews {
+    text-align: center;
+}
+
+#reviews h2 {
+    color: #2196f3;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#reviews blockquote {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/*END OF REVIEWS*/
