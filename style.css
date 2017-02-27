@@ -198,6 +198,7 @@ h1, h2, h3 {
 #buy {
     text-align: center;
     background-color: #183a74;
+    padding-bottom: 40px;
 
 }
 
@@ -215,7 +216,44 @@ h1, h2, h3 {
 #buy button {
     background: transparent;
     border: none;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 /*END OF BUY*/
+
+/*CONNECT SECTION*/
+
+#connect {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#connect h2 {
+    color: #142142;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+}
+
+#connect p {
+    margin-bottom: 35px;
+}
+
+#connect .fa {
+    margin-right: 10px;
+    color: #142142;
+    border: 1px solid #142142;
+    padding: 10px;
+    border-radius: 25%;
+    transition: all 0.3s linear;
+}
+
+#connect .fa-facebook {
+    padding: 10px 20px !important;
+}
+
+#connect .fa:hover {
+    color: white;
+    background-color: #142142;
+}
+
+/*END OF CONNECT*/
