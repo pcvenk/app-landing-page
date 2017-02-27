@@ -40,12 +40,30 @@ h1, h2, h3 {
 /*HEADER SECTION*/
 
 #header {
+    position: relative;
     padding: 160px 0 60px 0;
     /*background: url('libs/img/bg.jpg') center center no-repeat;*/
     background: url('libs/img/pexels-photo-1696852.jpg') center center no-repeat;
     background-size: cover;
-
     width: 100%;
+
+}
+
+#header:after, #header:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#header:after {
+    border-top-color: #4d4d4d;
+    border-width: 30px;
+    margin-left: -30px;
 }
 
 #header .pitch {
@@ -104,6 +122,24 @@ h1, h2, h3 {
     color: white;
     text-align: center;
     padding-bottom: 45px;
+    position: relative;
+}
+
+#features:after, #features:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#features:after {
+    border-top-color: #2196f3;
+    border-width: 30px;
+    margin-left: -30px;
 }
 
 #features h2, #features h4 {
@@ -155,6 +191,24 @@ h1, h2, h3 {
     text-align: center;
     background-color: #1e5ca5;
     padding-bottom: 50px;
+    position: relative;
+}
+
+#screens:after, #screens:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#screens:after {
+    border-top-color: #1e5ca5;
+    border-width: 30px;
+    margin-left: -30px;
 }
 
 #screens h2 {
@@ -226,6 +280,25 @@ h1, h2, h3 {
 #connect {
     text-align: center;
     padding-bottom: 40px;
+    position: relative;
+    background: white;
+}
+
+#connect:after, #connect:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#connect:after {
+    border-top-color: white;
+    border-width: 30px;
+    margin-left: -30px;
 }
 
 #connect h2 {
@@ -265,7 +338,7 @@ h1, h2, h3 {
 
 /*FOOTER*/
 
-footer {
+#footer {
     background-color: #0a1624;
     color: white;
     padding-bottom: 40px;
