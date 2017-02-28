@@ -13,6 +13,8 @@
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 
+
+    <link rel="stylesheet" href="libs/css/animate.css">
     <link rel="stylesheet" href="libs/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -58,8 +60,9 @@
 <section id="header">
     <div class="container">
         <div class="row">
-            <div class="col col-md-6 pitch">
-                <h1 class="hero-heading">Welcome</h1>
+            <div class="col col-md-6 pitch"
+                 data-wow-delay="1s">
+                <h1 class="hero-heading wow pulse" data-wow-delay="1s">Welcome</h1>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
                     aliquid
                     beatae
@@ -72,7 +75,9 @@
                 </ul>
             </div>
 
-            <div class="col col-md-6" align="center">
+            <div class="col col-md-6"
+                 data-wow-delay="1s"
+                 align="center">
                 <img src="libs/img/devices.png" class="img-responsive">
             </div>
         </div>
@@ -367,19 +372,34 @@
 
                 <ul class="list-inline icons">
                     <li>
-                        <a href="www.flickr.com"><i class="fa fa-flickr fa-4x" aria-hidden="true"></i></a>
+                        <a href="www.flickr.com"><i class="fa fa-flickr fa-4x wow slideInLeft"
+                                                    data-wow-delay="0.1s"
+                                                    data-wow-offset="100"
+                                                    aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="www.facebook.com"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
+                        <a href="www.facebook.com"><i class="fa fa-facebook fa-4x wow slideInLeft"
+                                                      data-wow-delay="0.3s"
+                                                      data-wow-offset="100"
+                                                      aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="www.twitter.com"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+                        <a href="www.twitter.com"><i class="fa fa-twitter fa-4x wow slideInLeft"
+                                                     data-wow-delay="0.5s"
+                                                     data-wow-offset="100"
+                                                     aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="www.instagram.com"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram fa-4x wow slideInLeft"
+                                                       data-wow-delay="0.7s"
+                                                       data-wow-offset="100"
+                                                       aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="www.pinterest.com"><i class="fa fa-pinterest fa-4x" aria-hidden="true"></i></a>
+                        <a href="www.pinterest.com"><i class="fa fa-pinterest fa-4x wow slideInLeft"
+                                                       data-wow-delay="0.9s"
+                                                       data-wow-offset="100"
+                                                       aria-hidden="true"></i></a>
                     </li>
                 </ul>
 
@@ -435,5 +455,7 @@
 
 <script src="libs/js/jquery-3.1.1.min.js"></script>
 <script src="libs/js/bootstrap.min.js"></script>
+<script src="libs/js/wow.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
