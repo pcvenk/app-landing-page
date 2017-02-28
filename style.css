@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 h1, p {
     font-family: 'Lato', sans-serif;
 }
@@ -18,8 +22,17 @@ h1, h2, h3 {
 
 /*NAVBAR*/
 
+.navbar a {
+    color: #2196f3 !important;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: white !important;
+}
+
 .navbar a:hover {
     color: #165591 !important;
+    background-color: white !important;
 }
 
 .icon-bar {
@@ -39,7 +52,7 @@ h1, h2, h3 {
 
 /*HEADER SECTION*/
 
-#header {
+.header {
     position: relative;
     padding: 160px 0 60px 0;
     /*background: url('libs/img/bg.jpg') center center no-repeat;*/
@@ -49,7 +62,7 @@ h1, h2, h3 {
 
 }
 
-#header:after, #header:before {
+.header:after, .header:before {
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -60,51 +73,51 @@ h1, h2, h3 {
     pointer-events: none;
 }
 
-#header:after {
+.header:after {
     border-top-color: #4d4d4d;
     border-width: 30px;
     margin-left: -30px;
 }
 
-#header .pitch {
+.header .pitch {
     margin-bottom: 80px;
 }
 
-#header .pitch .text {
+.header .pitch .text {
     padding: 30px 0;
 }
 
-#header p {
+.header p {
     color: white;
 }
 
-#header h1 {
+.header h1 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 5em;
     color: white;
     padding-top: 0;
 }
 
-#header p {
+.header p {
     font-size: 1.5em;
 }
 /*END OF HEADER SECTION*/
 
 /*ABOUT SECTION*/
 
-#about h2 {
+.about h2 {
     color: #2196f3;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#about h3 {
+.about h3 {
     color: #2196f3;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#about .quoted-text {
+.about .quoted-text {
     font-size: 1.5em;
     padding-top: 25px;
 }
@@ -117,7 +130,7 @@ h1, h2, h3 {
     margin-bottom: 30px !important;
 }
 
-#features {
+.features {
     background-color: #2196f3;
     color: white;
     text-align: center;
@@ -125,7 +138,7 @@ h1, h2, h3 {
     position: relative;
 }
 
-#features:after, #features:before {
+.features:after, .features:before {
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -136,13 +149,13 @@ h1, h2, h3 {
     pointer-events: none;
 }
 
-#features:after {
+.features:after {
     border-top-color: #2196f3;
     border-width: 30px;
     margin-left: -30px;
 }
 
-#features h2, #features h4 {
+.features h2, .features h4 {
     color: white;
     letter-spacing: 1.6px;
     font-weight: 900;
@@ -160,27 +173,27 @@ h1, h2, h3 {
 
 /*PRESS SECTION*/
 
-#press h2 {
+.press h2 {
     color: #2196f3;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#press {
+.press {
     text-align: center;
     padding-bottom: 40px;
 }
 
-#press .logos {
+.press .logos {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
 }
 
-#press .logos img {
+.press .logos img {
     opacity: 0.3;
 }
 
-#press .logos img:hover {
+.press .logos img:hover {
     opacity: 1;
 }
 
@@ -188,14 +201,14 @@ h1, h2, h3 {
 
 /*SCREENS*/
 
-#screens {
+.screens {
     text-align: center;
     background-color: #1e5ca5;
     padding-bottom: 50px;
     position: relative;
 }
 
-#screens:after, #screens:before {
+.screens:after, .screens:before {
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -206,24 +219,24 @@ h1, h2, h3 {
     pointer-events: none;
 }
 
-#screens:after {
+.screens:after {
     border-top-color: #1e5ca5;
     border-width: 30px;
     margin-left: -30px;
 }
 
-#screens h2 {
+.screens h2 {
     color: white;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#screens p {
+.screens p {
     color: white;
     margin-bottom: 30px;
 }
 
-#screens .col-xs-6 {
+.screens .col-xs-6 {
     padding-bottom: 25px;
 }
 
@@ -231,18 +244,18 @@ h1, h2, h3 {
 
 /*REVIEWS SECTION*/
 
-#reviews {
+.reviews {
     text-align: center;
     padding-bottom: 30px;
 }
 
-#reviews h2 {
+.reviews h2 {
     color: #2196f3;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#reviews blockquote {
+.reviews blockquote {
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -251,25 +264,25 @@ h1, h2, h3 {
 
 /*BUY SECTION*/
 
-#buy {
+.buy {
     text-align: center;
     background-color: #183a74;
     padding-bottom: 40px;
 
 }
 
-#buy h2 {
+.buy h2 {
     color: white;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#buy p {
+.buy p {
     color: white;
     margin-bottom: 35px;
 }
 
-#buy button {
+.buy button {
     background: transparent;
     border: none;
     margin-bottom: 20px;
@@ -279,14 +292,14 @@ h1, h2, h3 {
 
 /*CONNECT SECTION*/
 
-#connect {
+.connect {
     text-align: center;
     padding-bottom: 40px;
     position: relative;
     background: white;
 }
 
-#connect:after, #connect:before {
+.connect:after, .connect:before {
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -297,23 +310,23 @@ h1, h2, h3 {
     pointer-events: none;
 }
 
-#connect:after {
+.connect:after {
     border-top-color: white;
     border-width: 30px;
     margin-left: -30px;
 }
 
-#connect h2 {
+.connect h2 {
     color: #142142;
     letter-spacing: 1.6px;
     font-weight: 900;
 }
 
-#connect p {
+.connect p {
     margin-bottom: 35px;
 }
 
-#connect .icons .fa {
+.connect .icons .fa {
     margin-right: 10px;
     color: #142142;
     border: 1px solid #142142;
@@ -323,16 +336,16 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
-#connect .fa-facebook {
+.connect .fa-facebook {
     padding: 10px 20px !important;
 }
 
-#connect .icons .fa:hover {
+.connect .icons .fa:hover {
     color: white;
     background-color: #142142;
 }
 
-#connect .fa {
+.connect .fa {
     color: #142142;
 }
 
